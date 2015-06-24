@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="Gila_ditaenia" id="Gila_ditaenia">
+	<SimpleField name="AREA" type="float"></SimpleField>
+	<SimpleField name="PERIMETER" type="float"></SimpleField>
+	<SimpleField name="HUCS00M020" type="float"></SimpleField>
+	<SimpleField name="PLYTYPE" type="int"></SimpleField>
+	<SimpleField name="HUC" type="int"></SimpleField>
+	<SimpleField name="REG_NAME" type="string"></SimpleField>
+	<SimpleField name="MAP_LABEL" type="string"></SimpleField>
+	<SimpleField name="SUB_NAME" type="string"></SimpleField>
+	<SimpleField name="ACC_NAME" type="string"></SimpleField>
+	<SimpleField name="CAT_NAME" type="string"></SimpleField>
+	<SimpleField name="HUC2" type="int"></SimpleField>
+	<SimpleField name="HUC4" type="int"></SimpleField>
+	<SimpleField name="HUC6" type="int"></SimpleField>
+	<SimpleField name="REG" type="int"></SimpleField>
+	<SimpleField name="SUB" type="int"></SimpleField>
+	<SimpleField name="ACC" type="int"></SimpleField>
+	<SimpleField name="CAT" type="int"></SimpleField>
+	<SimpleField name="CAT_NUM" type="string"></SimpleField>
+	<SimpleField name="HUC_S" type="int"></SimpleField>
+	<SimpleField name="SOURCETHM" type="string"></SimpleField>
+	<SimpleField name="Shape_Leng" type="float"></SimpleField>
+	<SimpleField name="Shape_Area" type="float"></SimpleField>
+	<SimpleField name="hold_OBJEC" type="int"></SimpleField>
+	<SimpleField name="hold_LOCAT" type="float"></SimpleField>
+	<SimpleField name="hold_COUNT" type="float"></SimpleField>
+	<SimpleField name="hold_MINOF" type="string"></SimpleField>
+	<SimpleField name="hold_ELEME" type="float"></SimpleField>
+	<SimpleField name="hold_SCIEN" type="string"></SimpleField>
+	<SimpleField name="hold_G_PRI" type="string"></SimpleField>
+	<SimpleField name="hold_ORIGI" type="string"></SimpleField>
+	<SimpleField name="hold_OCCUR" type="string"></SimpleField>
+	<SimpleField name="HUC_S_1" type="string"></SimpleField>
+	<SimpleField name="hold_ELE_1" type="int"></SimpleField>
+	<SimpleField name="HUC4_1" type="int"></SimpleField>
+</Schema>
+<Folder><name>Gila_ditaenia</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Gila_ditaenia">
+		<SimpleData name="AREA">0.03500000000</SimpleData>
+		<SimpleData name="PERIMETER">1.10500000000</SimpleData>
+		<SimpleData name="HUCS00M020">4292.00000000000</SimpleData>
+		<SimpleData name="PLYTYPE">0</SimpleData>
+		<SimpleData name="HUC">15080200</SimpleData>
+		<SimpleData name="REG_NAME">Lower Colorado Region</SimpleData>
+		<SimpleData name="MAP_LABEL">150802</SimpleData>
+		<SimpleData name="SUB_NAME">Sonora</SimpleData>
+		<SimpleData name="ACC_NAME">Rio De La Concepcion</SimpleData>
+		<SimpleData name="CAT_NAME">Rio De La Concepcion. Arizona.</SimpleData>
+		<SimpleData name="HUC2">15</SimpleData>
+		<SimpleData name="HUC4">1508</SimpleData>
+		<SimpleData name="HUC6">150802</SimpleData>
+		<SimpleData name="REG">15</SimpleData>
+		<SimpleData name="SUB">1508</SimpleData>
+		<SimpleData name="ACC">150802</SimpleData>
+		<SimpleData name="CAT">15080200</SimpleData>
+		<SimpleData name="CAT_NUM">15080200</SimpleData>
+		<SimpleData name="HUC_S">15080200</SimpleData>
+		<SimpleData name="SOURCETHM">Hucs00p020.shp</SimpleData>
+		<SimpleData name="Shape_Leng">1.10485745819</SimpleData>
+		<SimpleData name="Shape_Area">0.03544068842</SimpleData>
+		<SimpleData name="hold_OBJEC">1</SimpleData>
+		<SimpleData name="hold_LOCAT">15080200.00000000000</SimpleData>
+		<SimpleData name="hold_COUNT">6.00000000000</SimpleData>
+		<SimpleData name="hold_MINOF">C</SimpleData>
+		<SimpleData name="hold_ELEME">105596.00000000000</SimpleData>
+		<SimpleData name="hold_SCIEN">Gila ditaenia</SimpleData>
+		<SimpleData name="hold_G_PRI">Sonora Chub</SimpleData>
+		<SimpleData name="hold_ORIGI">Native</SimpleData>
+		<SimpleData name="hold_OCCUR">C</SimpleData>
+		<SimpleData name="HUC_S_1">15080200</SimpleData>
+		<SimpleData name="hold_ELE_1">105596</SimpleData>
+		<SimpleData name="HUC4_1">15080200</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-111.610412597999911,31.50251960800006 -111.610130309999931,31.521583557000042 -111.607513427999947,31.52346801800007 -111.594322204999912,31.531082153000057 -111.58547210699993,31.539958954000046 -111.561233520999906,31.538234711000083 -111.552726745999891,31.541168213000045 -111.536560058999896,31.539710999000075 -111.511917113999914,31.54163551300007 -111.505401610999911,31.539499283000055 -111.490646361999893,31.532068253000034 -111.469039916999918,31.527980804000038 -111.448097228999913,31.527984619000051 -111.442123412999933,31.525835037000032 -111.425872802999947,31.521165848000066 -111.415283202999944,31.526416779000044 -111.409988402999929,31.52927017200005 -111.394577025999922,31.516820908000053 -111.383308410999916,31.517061234000039 -111.365119933999878,31.51927375800005 -111.343086242999888,31.51927948000008 -111.335502624999947,31.517156601000067 -111.316566466999902,31.512071609000085 -111.305343627999946,31.495414734000065 -111.298522948999903,31.482316971000046 -111.289588927999944,31.469718933000077 -111.277107238999918,31.465864182000075 -111.264923095999904,31.470678329000066 -111.251586913999915,31.474142075000085 -111.23960113499993,31.46753692600004 -111.226379394999924,31.455474854000045 -111.211410521999923,31.457595825000055 -111.205047606999926,31.460462570000061 -111.19611358599991,31.46703147900007 -111.196220397999923,31.471138 -111.183822631999931,31.469097137000063 -111.172447204999912,31.465665817000058 -111.15686035199991,31.464599609000057 -111.153053283999881,31.462844849000078 -111.148666381999931,31.459278107000046 -111.148033141999903,31.455638885000038 -111.151573180999932,31.447351456000035 -111.159301757999913,31.435335159000086 -111.15750122099989,31.42806625400004 -111.152519225999924,31.422683716000055 -111.152076720999901,31.405799866000052 -111.156303405999878,31.383346558000088 -111.163093566999919,31.376365662000069 -111.178047179999908,31.363485336000053 -111.28381347699991,31.397832870000062 -111.610412597999911,31.50251960800006</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>
