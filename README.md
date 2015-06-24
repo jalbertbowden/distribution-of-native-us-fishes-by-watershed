@@ -1,4 +1,4 @@
-# distribution-of-native-us-fishes-by-watershed
+# Digital Distribution of Native U.S. Fishes by Watershed
 Digital Distribution of Native U.S. Fishes by Watershed
 
 Dataset via NatureServe:
